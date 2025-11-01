@@ -1,0 +1,39 @@
+app_name: Image Generator
+version: 1.0
+author: Sarthak Jain
+
+settings:
+  theme: dark
+  max_results: 10
+  show_download_button: true
+
+
+---
+
+## ⚙️ 2️⃣ **.gitignore**
+
+Create a `.gitignore` file to avoid pushing unnecessary files:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
